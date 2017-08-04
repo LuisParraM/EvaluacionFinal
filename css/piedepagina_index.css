@@ -1,0 +1,88 @@
+div[class*="columna"]{
+    display: flex;
+    flex-direction: column;
+    padding-left: 8%;
+    color: black;
+    width:25%;
+    clear: both;
+}
+
+footer{
+      background-color: #C6d5c5;
+      display: flex;
+      flex-direction: row;
+      border-radius: 0 0 10px 10px;
+      text-align: justify;
+      font-size:0.7em;
+      clear: both;
+}
+
+h2{
+  text-align: center;
+}
+
+.columna3 a{
+  font-size:0.8em;
+  text-decoration:none;
+}
+
+@media (max-width: 600px) {
+
+.contenido{
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+.cabecera{
+    width: 90%;
+    margin:auto;
+    height: auto;
+    font-size:1.5em;
+    text-align:center;
+    color: white;
+}
+a{
+    font-size:1.5em;
+  text-align:center;
+  word-spacing: 30px;
+}
+
+.segundo, .tercero{
+  width: 95.5%;
+  margin: auto;
+  height: auto;
+}
+
+#imagen1, #imagen2, #imagen3{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+
+.tercero1, .tercero2{
+    width: 100%;
+  height: auto;
+    text-align:center;
+    font-size:1.5em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    width:95.6%;
+    margin:auto;
+    font-size:1em;
+    height: auto;
+}
+
+div[class*="columna"]{
+    padding-left: 0;
+    padding-bottom: 3%;
+    width:90%;
+}
+h2{
+    font-size:2em;
+      text-align: center;
+}
